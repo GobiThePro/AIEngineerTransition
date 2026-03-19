@@ -32,3 +32,7 @@ print(str[::-1])  # Output: !dlroW ,olleH slicing a string to reverse it
 print(str.split())  # Output: ['Hello,', 'World!'] splitting a string into a list of substrings based on whitespace
 print(str.split(", "))  # Output: ['Hello', 'World!'] splitting a string into a list of substrings based on a specific delimiter
 print(str.replace("Hello", "Hi"))  # Output: Hi, World! replacing a substring with another substring using the replace() method
+#f string formatting example
+name = "Alice"
+age = 30
+print(f"My name is {name} and I am {age} years old.")  # Output: My name is Alice and I am 30 years old. using f-string formatting to include variables in a string
